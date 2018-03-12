@@ -1,0 +1,72 @@
+@import "normalize.css";
+@import "base.css";
+@import "type.css";
+
+
+/*@import "components/container.css";
+@import "components/button.css";
+@import "components/form.css";
+@import "components/card.css";
+@import "components/logo.css";
+
+@import "components/width.css";
+@import "components/grid.css";
+@import "components/layout.css";*/
+@import "components/navbar.css";
+@import "components/header.css";
+@import "components/heading.css";
+
+a {
+    color: #777777;
+    font-family: Tahoma;
+    font-weight: bold;
+    border-style: none;
+
+}
+
+.slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #3e3e3e;
+    width: 100%;
+    color: white;
+    height: 820px;
+}
+.slider-title {
+    text-align: center;
+    color: white;
+    align-self: center;
+}
+.slider-title-button {
+    flex-wrap: wrap;
+    flex-basis: 60%;
+}
+.slider-title, .slider-button {
+    flex-basis: 60%;
+}
+.slider-button {
+    display: flex;
+    justify-content: center;
+}
+.slider-arrow-down {
+    display: flex;
+    justify-content: center;
+    flex-basis: 60%;
+}
+.services {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.gallery-1-in-3 {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 60%;
+}
+.gallery-card {
+    width: 370px;
+}
