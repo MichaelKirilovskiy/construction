@@ -1,1 +1,6 @@
 .card {}
+
+/*
+.card:not(:hover) .card-hover {
+    display:none;
+}*/

@@ -1,0 +1,85 @@
+.slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    padding-top: 70px;
+}
+
+.slider-item {
+    position: relative;
+}
+
+.foreground {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: inherit;
+    background: rgba(14, 14, 14, 0.5);
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+.foreground .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.button-primary, .slider-text, .slider-button-small {
+    flex-basis: 30%;
+}
+.slider .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 235px;
+    height: 60px;
+    font-size: 14px;
+    background-color: #ffc925;
+    color: #ffffff;
+}
+.slider-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-button-small {
+    padding: 0 10px;
+}
+/*
+.slider-title {
+    text-align: center;
+    color: white;
+    align-self: center;
+}
+.slider-title-button {
+    flex-wrap: wrap;
+    flex-basis: 60%;
+}
+.slider-title, .slider-button {
+    flex-basis: 60%;
+}
+.slider-button {
+    display: flex;
+    justify-content: center;
+}
+.slider-arrow-down {
+    display: flex;
+    justify-content: center;
+    flex-basis: 60%;
+}*/

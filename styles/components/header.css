@@ -2,6 +2,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 60%;
+    width: 100%;
+    min-height: 70px;
+    position: fixed;
+    z-index: 2;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #ffffff;
+}
+ .header a {
+    color: #777777;
+    text-decoration: none;
 
 }
+/* .header li {
+     padding: 0 10px;
+ }*/
+
+ .header>.container {
+     display: flex;
+     flex-basis: 80%;
+     justify-content: space-between;
+     align-items: center;
+ }
