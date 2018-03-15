@@ -18,7 +18,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: inherit;
+    /*height: 826px;*/
     background: rgba(14, 14, 14, 0.5);
     position: absolute;
     z-index: 1;
@@ -60,6 +60,12 @@
 }
 .slider-button-small {
     padding: 0 10px;
+}
+
+
+.slider-arrow-down {
+    /*position: absolute;
+    top: 741px;*/
 }
 /*
 .slider-title {

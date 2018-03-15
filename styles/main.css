@@ -16,6 +16,10 @@
 @import "components/header.css";
 @import "components/slider.css";
 @import "components/heading.css";
+@import "components/gallery.css";
+@import "components/construction.css";
+@import "components/section.css";
+@import "components/facts.css";
 
 
 
@@ -27,12 +31,4 @@
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-}
-.gallery-1-in-3 {
-    display: flex;
-    justify-content: space-between;
-    flex-basis: 60%;
-}
-.gallery-card {
-    width: 370px;
 }

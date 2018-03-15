@@ -1,11 +1,23 @@
 .heading {
     display: flex;
     flex-wrap: wrap;
-    width: 60%;
     justify-content: center;
+    align-items: center;
+
+
 }
-.heading-head {
-    flex-basis: 100%;
+.heading>.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+
+
+}
+.heading-title {
+    padding-top: 110px;
+    padding-bottom: 32px;
 }
 .heading-strip {
     width: 72px;
@@ -14,5 +26,7 @@
 
 }
 .heading-description {
-    flex-basis: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }

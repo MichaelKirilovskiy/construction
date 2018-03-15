@@ -1,4 +1,6 @@
-.card {}
+.card {
+    text-align: center;
+}
 
 /*
 .card:not(:hover) .card-hover {
